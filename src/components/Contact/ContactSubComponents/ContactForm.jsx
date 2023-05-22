@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Button from "../../GlobalComponents/Button";
-VITE_SENDINBLUE_API_KEY = $API_KEY;
 
 
 function ContactForm() {
@@ -24,7 +23,7 @@ function ContactForm() {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    const API_KEY = import.meta.env.VITE_SENDINBLUE_API_KEY;
+    const API_KEY = import.meta.env.VITE_API_KEY;
       
     const messageToSend = {
       sender: {
