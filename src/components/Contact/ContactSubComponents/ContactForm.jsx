@@ -22,8 +22,8 @@ function ContactForm() {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    const API_KEY =
-      "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";
+    const API_KEY = import.meta.env.API_KEY;
+      
     const messageToSend = {
       sender: {
         name: senderName,
