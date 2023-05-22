@@ -1,0 +1,46 @@
+.link-item{
+    position: relative;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    border-radius: 999px;
+    z-index: 0;
+  }
+
+  .link-item.active div{
+    background-color: rgb(234, 179, 8);
+  }
+  
+  .link-item::after{
+    position: absolute;
+    content: attr(datatype);
+    color: white;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    font-size: 18px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 179, 8);
+    border-radius: 999px;
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.4s;
+  }
+  
+  .link-item:hover::after{
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  
+  
+  
+  
+  
