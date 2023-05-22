@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "../../GlobalComponents/Button";
-const SENDINBLUE_API_KEY = $API_KEY;
+VITE_SENDINBLUE_API_KEY = $API_KEY;
 
 
 function ContactForm() {
