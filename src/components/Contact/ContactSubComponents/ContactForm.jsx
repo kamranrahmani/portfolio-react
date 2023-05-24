@@ -58,7 +58,7 @@ function ContactForm() {
   };
 
   return (
-    <form onSubmit={submitHandler} className="grid grid-cols-2 gap-8 w-[70%]">
+    <form onSubmit={submitHandler} className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-[75%]">
       <input
         type="text"
         className="w-full bg-white/10 rounded-full px-6 py-3 outline-none focus:outline-1 focus:outline-yellow-500"
@@ -77,7 +77,7 @@ function ContactForm() {
       />
       <input
         type="text"
-        className="w-full bg-white/10 rounded-full px-6 py-3 col-span-2 outline-none focus:outline-1 focus:outline-yellow-500"
+        className="w-full bg-white/10 rounded-full px-6 py-3 lg:col-span-2 outline-none focus:outline-1 focus:outline-yellow-500"
         placeholder="YOUR SUBJECT"
         required
         onChange={subjectHandler}
@@ -86,7 +86,7 @@ function ContactForm() {
       <textarea
         type="text"
         rows={6}
-        className="w-full bg-white/10 rounded-3xl px-6 py-4 col-span-2 outline-none focus:outline-1 focus:outline-yellow-500"
+        className="w-full bg-white/10 rounded-3xl px-6 py-4 lg:col-span-2 outline-none focus:outline-1 focus:outline-yellow-500"
         placeholder="YOUR MESSAGE"
         required
         onChange={messageHandler}

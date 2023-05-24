@@ -12,7 +12,7 @@ function Portfolio() {
         frontTitleYellow={"PORTFOLIO"}
       />
       <Menu />
-      <div className="grid grid-cols-3 gap-8 mt-32 w-4/5 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-32 w-4/5 mx-auto">
         <PortfolioItem languages={'React, Next, Tailwind'} src={'../assets/images/Privitamin.jpeg'} title={'Privitamin'}/>
 
         <PortfolioItem languages={'React, Next, Tailwind'} src={'../assets/images/Nodemon.jpeg'} title={'Nodemon'}/>

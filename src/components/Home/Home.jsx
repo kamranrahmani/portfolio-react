@@ -5,14 +5,14 @@ import Intro from './HomeSubComponents/Intro'
 function Home() {
   return (
     <>
-    <div id='home' className='absolute text-white flex justify-start items-center space-x-52 px-4 h-screen w-[90%] overflow-hidden z-10'>
-        <div className='h-4/5 w-2/5'>
+    <Menu />
+    <div id='home' className='absolute text-white flex flex-col lg:flex-row justify-center items-center space-y-6 lg:space-y-0 lg:space-x-52 px-4 mt-8 lg:my-0 h-screen w-[90%] z-10'>
+        <div className='h-4/5 w-4/5 lg:w-2/5'>
             <img className='h-full w-full rounded-2xl' src="../../assets/images/slack.jpg" alt="" />
         </div>
         <Intro /> 
-        <Menu />
     </div>
-    <div id='homecolor' className='absolute top-0 left-0 h-full w-56 bg-yellow-500 z-0 skew-x-[8deg] scale-x-150'></div>
+    <div id='homecolor' className='absolute hidden lg:block top-0 left-0 h-full w-56 bg-yellow-500 z-0 skew-x-[8deg] scale-x-150'></div>
     </>
   )
 }

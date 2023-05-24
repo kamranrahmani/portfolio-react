@@ -7,7 +7,7 @@ function Skills() {
       <h1 className="text-center text-2xl text-white font-bold mb-16">
          MY SKILLS
       </h1>
-      <div className="grid grid-cols-4 gap-y-16 justify-items-center">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-16 justify-items-center">
         <SkillItem name={'HTML'} percent={90}/>
         <SkillItem name={'CSS'} percent={90}/>
         <SkillItem name={'JAVASCRIPT'} percent={80}/>
