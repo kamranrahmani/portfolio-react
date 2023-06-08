@@ -13,23 +13,11 @@ function Portfolio() {
       />
       <Menu />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-32 w-4/5 mx-auto">
-        <PortfolioItem languages={'React, Next, Tailwind'} src={'../assets/images/Privitamin.jpeg'} title={'Privitamin'}/>
+        <PortfolioItem languages={'React, Node, Tailwind'} src={'../assets/images/Perla.png'} title={'Perla'} address={'goperla.com'}/>
+
+        <PortfolioItem languages={'React, Node, Tailwind'} src={'../assets/images/Privitamin.jpeg'} title={'Privitamin'} address={'privitamin.com'}/>
 
         <PortfolioItem languages={'React, Next, Tailwind'} src={'../assets/images/Nodemon.jpeg'} title={'Nodemon'}/>
-
-        <PortfolioItem languages={'React, Tailwind'} src={'../assets/images/portfolio.png'} title={'Portfolio'}/>
-
-        <PortfolioItem
-          src={"../../assets/images/audiophile.jpg"}
-          title={"Audio Ecommerce"}
-          languages={"HTML, CSS, JAVASCRIPT"}
-          
-        />
-        <PortfolioItem
-          src={"../../assets/images/Entertainment.png"}
-          title={"Entertainment"}
-          languages={"HTML, CSS, JAVASCRIPT"}
-        />
       </div>
     </div>
   );

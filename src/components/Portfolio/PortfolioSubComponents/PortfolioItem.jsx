@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
 import ItemOverlay from "./ItemOverlay";
 
-function PortfolioItem({ src, title, languages }) {
+function PortfolioItem({ src, title, languages, address }) {
   const [showOverlay, setShowOverlay] = useState(false);
   const [itemDetails, setItemDetails] = useState(false);
 
@@ -35,7 +34,7 @@ function PortfolioItem({ src, title, languages }) {
           </button>
         )}
       </div>
-      {itemDetails && <ItemOverlay src={src} onClick={toggleItemDetails} title={title} languages={languages}/>}
+      {itemDetails && <ItemOverlay src={src} onClick={toggleItemDetails} title={title} languages={languages} address={address}/>}
     </div>
   );
 }
