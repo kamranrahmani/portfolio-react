@@ -21,7 +21,7 @@ function PersonalDetails() {
             <p className='text-white/70'>Languages: <span className='text-white'>English, Persian</span></p>
             </div>
        </div>
-        <Button text={'Download CV'} onClick={()=> {window.open('../../../../assets/KamranRahmani.docx')}}/>
+        <Button text={'Download CV'} onClick={()=> {window.open('../../../../assets/KamranRahmani.pdf')}}/>
     </div>
   )
 }
