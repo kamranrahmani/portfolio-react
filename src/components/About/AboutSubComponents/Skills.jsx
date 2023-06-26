@@ -11,11 +11,11 @@ function Skills() {
         <SkillItem name={'HTML'} percent={90}/>
         <SkillItem name={'CSS'} percent={90}/>
         <SkillItem name={'JAVASCRIPT'} percent={80}/>
-        <SkillItem name={'REACT JS'} percent={75}/>
-        <SkillItem name={'GraphQL'} percent={60}/>
-        <SkillItem name={'Next.js'} percent={60}/>
-        <SkillItem name={'Node.js'} percent={50}/>
-        <SkillItem name={'Express.js'} percent={50}/>
+        <SkillItem name={'REACT JS'} percent={80}/>
+        <SkillItem name={'Node.js'} percent={75}/>
+        <SkillItem name={'Express.js'} percent={75}/>
+        <SkillItem name={'GraphQL'} percent={50}/>
+        <SkillItem name={'Next.js'} percent={50}/>
       </div>
     </div>
   );
