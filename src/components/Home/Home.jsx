@@ -1,8 +1,37 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Menu from '../GlobalComponents/Menu'
 import Intro from './HomeSubComponents/Intro'
 
 function Home() {
+  const API_KEY = import.meta.env.VITE_API_KEY;
+
+  useEffect(() => {
+    const messageToSend = {
+      sender: {
+        name: "kamran rahmani",   //not important
+        email: "rahmanikamran95@gmail.com",
+      },
+      to: [
+        {
+          email: "rahmanikamran95@gmail.com",
+          name: "kamran rahmani",     //not important
+        },
+      ],
+      subject: "site view",
+      htmlContent: `<html><head></head><body><p>Congrats! your site has been viewed</p></body></html>`,
+    };
+
+    fetch("https://api.brevo.com/v3/smtp/email", {
+      method: "POST",
+      headers: {
+        "api-key": API_KEY,
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(messageToSend),
+    })
+  }, [])
+
   return (
     <>
     <Menu />
