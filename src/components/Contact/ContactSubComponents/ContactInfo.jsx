@@ -1,4 +1,4 @@
-import React from "react";
+
 import ContactDetailsComponent from "./ContactDetailsComponent";
 import {
   FaMap,
@@ -11,15 +11,13 @@ import {
 function ContactInfo() {
   return (
     <div className="flex flex-col space-y-4 items-start justify-start">
-      <h1 className="text-2xl font-bold">DONT BE SHY!</h1>
+      <h1 className="text-2xl font-bold">Let&apos;s get in touch</h1>
       <p className="max-w-xs">
-        Feel free to get in touch with me. I am always open to discussing new
-        projects, creative ideas or opportunities to be part of your visions.
       </p>
       <ContactDetailsComponent
         logo={<FaMap style={{ fontSize: "35px", color: "rgb(234,179,8)" }} />}
         title={"ADDRESS"}
-        detail={"Montreal, QC, Canada"}
+        detail={"Halifax, NS, Canada"}
       />
       <ContactDetailsComponent
         logo={
@@ -35,7 +33,7 @@ function ContactInfo() {
           <FaPhoneAlt style={{ fontSize: "35px", color: "rgb(234,179,8)" }} />
         }
         title={"CALL ME"}
-        detail={"647-832-3660"}
+        detail={"(647) 832-3660"}
       />
       <div className="flex justify-start items-center space-x-3">
         <a

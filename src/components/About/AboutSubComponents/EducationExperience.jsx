@@ -8,16 +8,16 @@ function EducationExperience() {
       </h1>
       <div className="flex flex-col lg:flex-row space-y-16 lg:space-y-0 justify-between items-start text-white mx-auto w-4/5 mb-24">
         <div className="flex flex-col space-y-8">
-          <EduExpComponent
+        <EduExpComponent
             startYear={2023}
-            EndYear={"present"}
-            place={"Nodemon LLC"}
-            title={"Software Engineer"}
+            EndYear={"2024"}
+            place={"TCG Machines"}
+            title={"Full-stack Developer"}
             description={
-              "I am working on a voting application called Opingo witten in React.js for frontend and Node.js for backend"
+              "I was part of a team of developers working on a web application that was sending data from users to a TCG card sorting machine."
             }
           />
-          <EduExpComponent
+        <EduExpComponent
             startYear={2022}
             EndYear={"2023"}
             place={"Perla"}
@@ -27,24 +27,16 @@ function EducationExperience() {
             }
           />
           <EduExpComponent
-            startYear={2018}
-            EndYear={2022}
-            place={"Adotel (part time)"}
-            title={"Software Developer"}
+            startYear={2021}
+            EndYear={"2022"}
+            place={"Nodemon LLC"}
+            title={"Software Engineer"}
             description={
-              "Worked on multiple medical related web application projects written in React.js for frontend and Node.js for backend."
+              "I am working on a voting application called Opingo witten in React.js for frontend and Node.js for backend"
             }
           />
-          <EduExpComponent
-            startYear={2016}
-            EndYear={2018}
-            place={"Adotel"}
-            title={"Full-stack Engineer"}
-            description={`I was working on multiple frontend projects:
-1- TA Panel that biggest travel agencies in Iran like Snapp & Alibaba use it. Both of these are private panels. 
-2- Hotel Reservation process: I created a completely customizable Search Widget and the complete reservation process using ReactJS for all Hotels so they can easily add it to their website.
-`}
-          />
+          
+          
         </div>
 
         <div className="flex flex-col space-y-6">

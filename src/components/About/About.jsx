@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Header from '../GlobalComponents/Header'
 import Menu from '../GlobalComponents/Menu'
 import PersonalInfo from './AboutSubComponents/PersonalInfo'
