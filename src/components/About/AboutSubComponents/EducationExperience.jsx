@@ -23,7 +23,7 @@ function EducationExperience() {
             place={"Perla"}
             title={"Full-stack Developer"}
             description={
-              "I was working on several web application projects in different domains such as Law and medical witten in React.js for frontend and Node.js for backend"
+              "I was working on a web application project in healthcare domain with the goal of automating admistrative tasks for doctors and patients. I was using React.js for frontend and Node.js for backend."
             }
           />
           <EduExpComponent
@@ -32,7 +32,7 @@ function EducationExperience() {
             place={"Nodemon LLC"}
             title={"Software Engineer"}
             description={
-              "I am working on a voting application called Opingo witten in React.js for frontend and Node.js for backend"
+              "I was working on a voting application called Opingo witten in React.js for frontend and Node.js for backend"
             }
           />
           
